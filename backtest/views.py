@@ -4,7 +4,7 @@ import pandas as pd
 from . import backtest
 
 def index(request):
-    template = loader.get_template('form.html')
+    template = loader.get_template('new_form.html')
     return HttpResponse(template.render())
 
 
